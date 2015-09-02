@@ -1,0 +1,11 @@
+<h3>About Me</h3>
+
+<p>I have been developing software for the last 3 years. In the process of development I keep a few principles in order to provide flexible and reliable application using the best known practices: simplicity, easy-maintenance and extensibility. My primary field of work is a backend part of web app is written in Java. Also I have experience in the development of client part in the form of single page app (javascript) or android app. I am here to apply my knowledge and experience to make your applications existing and working like a charm..</p>
+
+<h3>Recent posts</h3>
+
+<ul>
+  {% for post in site.posts limit: 5 %}
+    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+  {% endfor %}
+</ul>
