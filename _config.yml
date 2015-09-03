@@ -1,7 +1,7 @@
 name: "Java In Notes"
 description: "Ideas, Thoughts, Solutions from developer's life"
 
-paginate: 10
+paginate: 5
 
 markdown: rdiscount
 permalink: pretty
