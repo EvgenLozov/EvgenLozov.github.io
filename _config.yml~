@@ -1,8 +1,0 @@
-name: "Java In Notes"
-description: "Ideas, Thoughts, Solutions from developer's life"
-
-paginate: 10
-
-markdown: rdiscount
-permalink: pretty
-pygments: true
